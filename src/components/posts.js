@@ -18,7 +18,7 @@ const Posts = () => {
 
   return (
     <div>
-      <h1>Posts</h1>
+      <h1>Posts for my blog</h1>
       {posts.map((post) => (
         <div key={post.id}>
           <h2>
